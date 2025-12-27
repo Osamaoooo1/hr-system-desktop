@@ -1,0 +1,16 @@
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\bin\Debug\HR_ManagmentSystem.exe
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\bin\Debug\HR_ManagmentSystem.pdb
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.Properties.Resources.resources
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.csproj.GenerateResource.Cache
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.exe
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.pdb
+c:\users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.frmLogin.resources
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.frmMain.resources
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.csprojResolveAssemblyReference.cache
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.frmEmpReports.resources
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.frmReport.resources
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\RdlCompile.cache
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\RdlCompile.compiled
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.frmReportAtten.resources
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\obj\x86\Debug\HR_ManagmentSystem.frmReport2.resources
+C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\bin\Debug\HR_ManagmentSystem.exe.config

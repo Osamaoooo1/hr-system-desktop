@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <DataSources>
+    <DataSource Name="KxP_hrDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>f250267c-5f49-4a8a-866f-653c534b6478</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="employee_id">
+          <DataField>employee_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="first_name">
+          <DataField>first_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="last_name">
+          <DataField>last_name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="job_title">
+          <DataField>job_title</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="salary">
+          <DataField>salary</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="reports_to">
+          <DataField>reports_to</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="office_id">
+          <DataField>office_id</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="image_emp">
+          <DataField>image_emp</DataField>
+          <rd:TypeName>System.Byte[]</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>KxP_hrDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>KxP_hrDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\أسامه\documents\visual studio 2010\Projects\HR_ManagmentSystem\HR_ManagmentSystem\KxP_hrDataSet2.xsd</rd:SchemaPath>
+        <rd:TableName>employees</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>employeesTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Body>
+    <ReportItems>
+      <Tablix Name="Tablix1">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>0.89554in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90774in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90774in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90774in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90774in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90774in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>0.90774in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.28646in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox2">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>employee id</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox2</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>first name</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox5">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>last name</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox5</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox7">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>job title</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox7</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox9">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>salary</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox9</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox11">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>reports to</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox11</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox13">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>office id</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
+                                <Color>White</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox13</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#7292cc</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>#4c68a2</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.28646in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="employee_id">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!employee_id.Value)</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>employee_id</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="first_name">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!first_name.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>first_name</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="last_name">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!last_name.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>last_name</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="job_title">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!job_title.Value</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>job_title</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="salary">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!salary.Value)</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>salary</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="reports_to">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!reports_to.Value)</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>reports_to</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="office_id">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Sum(Fields!office_id.Value)</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <FontSize>9pt</FontSize>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>office_id</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSet1</DataSetName>
+        <Top>0.3125in</Top>
+        <Left>0.58in</Left>
+        <Height>0.57292in</Height>
+        <Width>6.34198in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <FontSize>8pt</FontSize>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2in</Height>
+    <Style />
+  </Body>
+  <Width>8.53125in</Width>
+  <Page>
+    <PageHeader>
+      <Height>1.05917in</Height>
+      <PrintOnFirstPage>true</PrintOnFirstPage>
+      <PrintOnLastPage>true</PrintOnLastPage>
+      <ReportItems>
+        <Image Name="Image3">
+          <Source>Embedded</Source>
+          <Value>desk</Value>
+          <Sizing>FitProportional</Sizing>
+          <Top>0.27097in</Top>
+          <Left>0.58in</Left>
+          <Height>0.45486in</Height>
+          <Width>0.48696in</Width>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </Image>
+        <Textbox Name="Textbox15">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value> Human Resource Management</Value>
+                  <Style>
+                    <FontStyle>Italic</FontStyle>
+                    <FontSize>15pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <TextDecoration>Underline</TextDecoration>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox15</rd:DefaultName>
+          <Top>0.38208in</Top>
+          <Left>1.13641in</Left>
+          <Height>0.34375in</Height>
+          <Width>3.91929in</Width>
+          <ZIndex>1</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+      </ReportItems>
+      <Style>
+        <Border>
+          <Style>None</Style>
+        </Border>
+      </Style>
+    </PageHeader>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <EmbeddedImages>
+    <EmbeddedImage Name="desk">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportID>5b903b72-3ca3-495f-b09e-e53f5e349cdf</rd:ReportID>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+</Report>
